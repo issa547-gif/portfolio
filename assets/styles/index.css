@@ -1,0 +1,133 @@
+:root{
+    --background-color1: rgb(56, 97, 56);
+    --background-color2: rgb(90, 47, 47);
+    --auxiliary-color: rgb(150, 133, 133);
+    --padding-horrizontal: 50px;
+    --card-backround: rgba(128, 0, 0, 0.705);
+}
+html body{
+    margin: 0;
+    background-color: rgb(201, 215, 221);
+    
+
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--background-color1);
+    color: antiquewhite;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: "Google Sans Code", monospace;
+    
+
+    
+}
+#logo{
+    display: flex;
+    justify-content: space-between;
+}
+.home>#nav>a{
+    color: white;
+    text-decoration: none;
+    justify-content: space-between;
+    
+}
+.intro{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+    padding-left: var(--padding-horrizontal);
+    padding-right: var(--padding-horrizontal);
+    height: 80vh;
+    
+    
+
+}
+.intro>#introid{
+    margin-left: 100px;
+
+}
+.intro>#introid>h1{
+    font-family: "Pacifico", cursive;
+}
+.intro>#introid>p{
+    font-family: "Shadows Into Light", cursive;
+}
+.intro>img{
+    aspect-ratio: 1/1;
+    width: 330px;
+    height: 330px;
+    border-radius: 50%;
+}
+.intro>#introid>button{
+    background-color: var(--background-color2);
+    color: #fff;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border-radius: 15px;
+    transition: 2s;
+    cursor: pointer;
+    width: 80%;
+}
+.intro>#introid>button:hover{
+    background-color:var(--auxiliary-color);
+}
+.Projects>.two>#card{
+    background-color: var(--card-backround);
+    width: 281px;
+    height: 360px;
+    border-radius: 30px;
+    padding: 16px;
+    margin: 12px;
+    font-family: "Playwrite NZ Basic", cursive;
+    
+}
+.Projects>.two>#card>button{
+    background-color: var(--background-color2);
+    color: #fff;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border-radius: 15px;
+    transition: 2s;
+    cursor: pointer;
+    width: 80%;
+
+}
+.Projects>.two>#card>button:hover{
+    background-color: var(--auxiliary-color);
+ }
+.Projects>#one{
+    font-family: "poppins", sans-serif;
+}
+
+.Projects>#one>h1{
+    color: var(--background-color1);
+    text-align: center;
+    font-size: 40px;
+
+
+}
+.Projects>#one>p{
+    color: var(--secondary-color);
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+
+    
+
+}
+.Projects>.two{
+    display: flex;
+}
+#card>img{
+    border-radius: 10px;
+
+}
