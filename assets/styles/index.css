@@ -4,6 +4,7 @@
     --auxiliary-color: rgb(150, 133, 133);
     --padding-horrizontal: 50px;
     --card-backround: rgba(128, 0, 0, 0.705);
+    --alternative-color: rgb(113, 117, 121);
 }
 html body{
     margin: 0;
@@ -130,4 +131,28 @@ html body{
 #card>img{
     border-radius: 10px;
 
+}
+#contactsection{
+    padding-left:var(--padding-horrizontal) ;
+    padding-right: var(--padding-horrizontal);
+    height: 60vh;
+}
+#contactsection>form{
+    padding: 24px;
+    background-color: var(--alternative-color);
+    border-radius: 30px;
+    width: 60vw;
+    margin: auto;
+}
+#contactsection>form>div{
+    margin-top: 16px;
+    
+
+}
+#contactsection>form>div{
+
+}
+#contactsection>form>h1{
+    text-align: center;
+    font-family: "Playwrite NZ Basic", cursive;
 }
