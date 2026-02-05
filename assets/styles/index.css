@@ -149,10 +149,101 @@ html body{
     
 
 }
-#contactsection>form>div{
+#contactsection>form>div>input{
+    all: unset;
+    border-radius: 15px;
+    background-color: beige;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 14pxs;
+    color: black;
+    width: 30vw;
+    margin-top: 8px;
+    height: 30px;
+
 
 }
 #contactsection>form>h1{
     text-align: center;
     font-family: "Playwrite NZ Basic", cursive;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: var(--background-color2);
+}
+#contactsection>form>#gender{
+    color: #3122b4;
+}
+
+#contactsection>form>div>textarea{
+    all: unset;
+    border-radius: 15px;
+    background-color: beige;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    font-size: 14pxs;
+    color: black;
+
+}
+#contactsection>form>.userMessage{
+    margin-top: 16px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+#contactsection>form>.userNames,.userDetails,.userAge{
+    display: flex;
+    justify-content:space-between ;
+    background-color: black;
+    padding:10px ;
+    border-radius: 12px;
+}
+#contactsection>form>div>div{
+    margin-top: 16px;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+#contactsection>form>.userNames,.userDetails,.userAge>div>label{
+    font-weight: 500;
+    color:wheat;
+}
+#contactsection>form>.userNames>div>input{
+    width: 20vw;
+    border-radius: 12px;
+    background-color: beige;
+    height: 30px;
+    font-size: 12px;
+     padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    
+
+}
+#contactsection>form>.userDetails>div>input{
+    width: 20vw;
+    border-radius: 12px;
+    background-color: beige;
+    height: 30px;
+    font-size: 12px;
+     padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    
+
+}
+#contactsection>form>.userAge>div>input{
+    width: 20vw;
+    border-radius: 12px;
+    background-color: beige;
+    height: 30px;
+    font-size: 12px;
+     padding-top: 4px;
+    padding-bottom: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
 }
