@@ -187,6 +187,8 @@ html body{
     padding-right: 16px;
     font-size: 14pxs;
     color: black;
+    width: 50vw;
+    height: 20vh;
 
 }
 #contactsection>form>.userMessage{
@@ -247,3 +249,23 @@ html body{
     padding-left: 16px;
     padding-right: 16px;
 }
+#contactsection>form>button{
+    background-color: var(--background-color2);
+    color: #fff;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 12px;
+    padding-top: 12px;
+    border-radius: 15px;
+    transition: 2s;
+    cursor: pointer;
+    width: 30%;
+    margin: auto;
+    margin-left: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+#contactsection>form>button:hover{
+    background-color: var(--auxiliary-color);
+ }
